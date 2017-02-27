@@ -27,8 +27,11 @@ endGame:
 playAgain:
 	reset/exit
 '''
+
+
 # Global var to hold board
-board = np.array([[0,0,0], [0,0,0], [0,0,0]], np.int32)
+board = np.array([[[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]]], np.int32)
+turn = 'X'
 
 # prints menu, prompts user to continue: go -> move, exit -> exit_game
 def newGame():
@@ -39,11 +42,10 @@ def newGame():
 
     start = raw_input("Ready? ")
     if start == "go" or start == "GO" or start == "Go":
-        print
-        # start game
+        reset()
+        move("")
     else:
         exit_game()
-
 
 
 # Display intro to user and prompt for start game
@@ -58,6 +60,59 @@ def displayMenu():
 
 
 
+# reset matrix user turn
+def reset():
+    board = np.array([[[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]]], np.int32)
+
+
+# process user move input and send to helper to verify
+def move(error):
+    print error
+    user_move = raw_input("Player " + turn + ":")
+    level = user_move.split()[0][0]
+    col = user_move.split()[1][1]
+    row = user_move.split()[1][0]
+
+    try:
+        if int(col) in [1,2,3] and str(row).lower in ['a','b','c'] and str(level).lower() in ['r', 'y','g']:
+            checkMove(str(level), str(col), int(row))
+    except:
+        move("Invalid input: Please try again")
+
+
+
+def checkMove(level, col, row):
+    if board[level, col, row] == 0:
+        board[level, col, row] = turn
+        if turn == 'X':
+            turn = 'O'
+        else:
+            turn = 'X'
+        checkWinner()
+    else:
+        endGame(turn)
+
+
+def checkWinner():
+    print "hi there"
+
+
+def endGame(turn):
+    if turn == 'X':
+        winner = 'O'
+    else:
+        winner = 'X'
+
+    print "We have a winner! Congratulations " + winner + "you have won this round."
+    playAgain = raw_input("Do you want to play again? y/n")
+    if playAgain.lower() == 'y':
+        newGame()
+    else:
+        exit_game()
+        
+
+
+
 
 # confirm user wants to exit: y -> exit game, n -> reset game
 def exit_game():
@@ -69,20 +124,12 @@ def exit_game():
 
 
 
-
-
-
-
-
-
-
-
 def main():
 
-
-    print type(board)
-    print board.shape
-    print board.dtype
+    newGame()
 
 main()
 
+
+
+# hi there how are you
