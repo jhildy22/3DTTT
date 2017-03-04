@@ -1,8 +1,6 @@
 __author__ = 'Richthofen'
 import numpy as np
 
-
-
 # Global var to hold board
 board = np.array([[[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]]], np.int32)
 turn = 'X'
@@ -32,7 +30,6 @@ def displayMenu():
     print "The board is set up in three levels from top to bottom: red, yellow, green. Each board is configured like"
     print "battleship, numbers across the top and letters on the side. Each player inputs there turn in the following"
     print "format: Color (level) Column (letter) Row (number).  For example the center of the cube is: Yellow B2."
-
 
 
 # reset matrix user turn
@@ -65,7 +62,6 @@ def move(error):
         move("Invalid Input!")
 
 
-
 def checkMove(level, row, col):
     global turn
 
@@ -93,12 +89,26 @@ def checkWinner():
                 count += board[lev,col,row]
                 if count == 3 or count == 12:
                     endGame()
+
         for col in loop:
             count = 0
             for row in loop:
                 count += board[lev,col,row]
                 if count == 3 or count == 12:
                     endGame("")
+
+        count = 0
+        for i in loop:
+            count += board[lev, i, i]
+            if count == 3 or count == 12:
+                endGame("")
+
+        count = 0
+        for i in reversed(loop):
+            count += board[lev, i,i]
+            if count ==3 or count == 12:
+                endGame("")
+
 
 
     for col in loop:
@@ -117,6 +127,18 @@ def checkWinner():
                 if count == 3 or count == 12:
                     endGame("")
 
+        count = 0
+        for i in loop:
+            count += board[i, col, i]
+            if count == 3 or count == 12:
+                endGame("")
+
+        count = 0
+        for i in reversed(loop):
+            count += board[i, col, i]
+            if count ==3 or count == 12:
+                endGame("")
+
 
     for row in loop:
         count = 0
@@ -133,14 +155,30 @@ def checkWinner():
                 count += board[lev,col,row]
                 if count == 3 or count == 12:
                     endGame("")
+
+
+        count = 0
+        for i in loop:
+            count += board[i, i, row]
+            if count == 3 or count == 12:
+                endGame("")
+
+        count = 0
+        for i in reversed(loop):
+            count += board[i, i, row]
+            if count ==3 or count == 12:
+                endGame("")
     move("")
 
 
 
-
+# called if a winning combination is found, alerts user to winner
 def endGame(error):
 
     if error == "forgot":
+        print
+        print board
+        print
         print "Player " + turn + ", You forgot the board! You loose!"
         playAgain = raw_input("Do you want to play again? y/n ")
         if playAgain.lower() == 'y':
@@ -160,9 +198,6 @@ def endGame(error):
         newGame()
     else:
         exit_game()
-        
-
-
 
 
 # confirm user wants to exit: y -> exit game, n -> reset game
@@ -174,14 +209,10 @@ def exit_game():
         newGame()
 
 
-
+# main function that initiates program flow
 def main():
 
     newGame()
 
 main()
 
-
-
-# hi there how are you
-# today

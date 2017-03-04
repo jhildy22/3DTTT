@@ -26,23 +26,18 @@
       <file leaf-file-name="3dTTT.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3dTTT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2546469" vertical-offset="1530" max-vertical-offset="2550">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.813253" vertical-offset="0" max-vertical-offset="780">
+              <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
               <folding>
-                <element signature="e#337#588#0" expanded="false" />
-                <element signature="e#661#1214#0" expanded="false" />
-                <element signature="e#1260#1441#0" expanded="false" />
+                <element signature="e#335#586#0" expanded="false" />
+                <element signature="e#659#1212#0" expanded="false" />
+                <element signature="e#1257#1438#0" expanded="false" />
+                <element signature="e#1518#2120#0" expanded="false" />
+                <element signature="e#2159#2397#0" expanded="false" />
+                <element signature="e#2423#4702#0" expanded="false" />
+                <element signature="e#4797#5404#0" expanded="false" />
+                <element signature="e#5487#5636#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17233" max-vertical-offset="25110">
-              <caret line="1225" column="0" selection-start-line="1225" selection-start-column="0" selection-end-line="1225" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -58,6 +53,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/3dTTT.py" />
+        <option value="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py" />
       </list>
     </option>
   </component>
@@ -91,7 +87,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -112,6 +107,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,12 +313,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13601127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44578314" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18604651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36778846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -354,7 +350,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/3dTTT.py</url>
-          <line>82</line>
+          <line>78</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
@@ -367,12 +363,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/3dTTT.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="2160">
+          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding>
+            <element signature="e#335#586#0" expanded="false" />
+            <element signature="e#659#1212#0" expanded="false" />
+            <element signature="e#1257#1438#0" expanded="false" />
+            <element signature="e#1518#2120#0" expanded="false" />
+            <element signature="e#2159#2397#0" expanded="false" />
+            <element signature="e#2423#4702#0" expanded="false" />
+            <element signature="e#4797#5404#0" expanded="false" />
+            <element signature="e#5487#5636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18375" max-vertical-offset="26085">
+          <caret line="1225" column="0" selection-start-line="1225" selection-start-column="0" selection-end-line="1225" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3dTTT.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1031" max-vertical-offset="2205">
           <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
           <folding>
-            <element signature="e#337#588#0" expanded="false" />
-            <element signature="e#661#1214#0" expanded="false" />
-            <element signature="e#1260#1441#0" expanded="false" />
+            <element signature="e#335#586#0" expanded="false" />
+            <element signature="e#659#1212#0" expanded="false" />
+            <element signature="e#1257#1438#0" expanded="false" />
+            <element signature="e#1518#2120#0" expanded="false" />
+            <element signature="e#2159#2397#0" expanded="false" />
+            <element signature="e#2423#4702#0" expanded="false" />
+            <element signature="e#4797#5404#0" expanded="false" />
+            <element signature="e#5487#5636#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -382,10 +408,23 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="878" max-vertical-offset="2175">
           <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
           <folding>
-            <element signature="e#337#588#0" expanded="false" />
-            <element signature="e#661#1214#0" expanded="false" />
-            <element signature="e#1260#1441#0" expanded="false" />
+            <element signature="e#335#586#0" expanded="false" />
+            <element signature="e#659#1212#0" expanded="false" />
+            <element signature="e#1257#1438#0" expanded="false" />
+            <element signature="e#1518#2120#0" expanded="false" />
+            <element signature="e#2159#2397#0" expanded="false" />
+            <element signature="e#2423#4702#0" expanded="false" />
+            <element signature="e#4797#5404#0" expanded="false" />
+            <element signature="e#5487#5636#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33179724" vertical-offset="5196" max-vertical-offset="9045">
+          <caret line="359" column="1" selection-start-line="359" selection-start-column="1" selection-end-line="359" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -399,12 +438,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3dTTT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2546469" vertical-offset="1530" max-vertical-offset="2550">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.813253" vertical-offset="0" max-vertical-offset="780">
+          <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
           <folding>
-            <element signature="e#337#588#0" expanded="false" />
-            <element signature="e#661#1214#0" expanded="false" />
-            <element signature="e#1260#1441#0" expanded="false" />
+            <element signature="e#335#586#0" expanded="false" />
+            <element signature="e#659#1212#0" expanded="false" />
+            <element signature="e#1257#1438#0" expanded="false" />
+            <element signature="e#1518#2120#0" expanded="false" />
+            <element signature="e#2159#2397#0" expanded="false" />
+            <element signature="e#2423#4702#0" expanded="false" />
+            <element signature="e#4797#5404#0" expanded="false" />
+            <element signature="e#5487#5636#0" expanded="false" />
           </folding>
         </state>
       </provider>
